@@ -1,0 +1,44 @@
+body {
+  background: rgb(36, 53, 63);
+}
+h1 {
+  color: rgb(23, 162, 184);
+}
+.sign {
+  box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.form-control::placeholder {
+  color: rgb(206, 212, 218);
+}
+.form-control {
+  border-color: rgb(206, 212, 218);
+  color: white;
+}
+.form-control:focus {
+  color: rgb(206, 212, 218);
+  background-color: transparent;
+  border-color: rgb(23, 162, 184);
+  outline: 0;
+  box-shadow: none;
+}
+.welcome {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.welcome h2 {
+  color: rgb(23, 162, 184);
+}
+button {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+button i {
+  color: rgba(255, 255, 255, 0.4);
+}
+.group {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn-outline-warning {
+  color: rgba(255, 255, 255, 0.4);
+}
+.btn-outline-warning:hover {
+  color: white;
+}

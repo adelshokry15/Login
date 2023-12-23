@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="group">
+      <div class="container">
+        <nav class="navigation d-lg-flex justify-content-between p-2">
+          <div
+            class="small-show d-flex d-lg-inline-flex justify-content-between align-content-center"
+          >
+            <h1>
+              <a
+                href="#"
+                class="text-uppercase text-decoration-none text-white fs-3"
+                >smart login</a
+              >
+            </h1>
+            <button
+              onclick="displayBtns()"
+              class="bg-transparent rounded-2 px-3 d-lg-none toggleBtn"
+            >
+              <i class="fa-solid fa-bars fs-1"></i>
+            </button>
+          </div>
+          <button
+            onclick="logout()"
+            class="logoutBtn btn btn-outline-warning border-1 rounded-2 p-2 mt-1 d-none d-lg-inline-block"
+          >
+            Logout
+          </button>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="welcome w-50 p-5 text-center position-absolute translate-middle top-50 start-50"
+      >
+        <h2 class="welcomeMesg"></h2>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
